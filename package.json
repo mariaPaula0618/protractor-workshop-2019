@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/mariaPaula0618/protractor-workshop-2019#readme",
   "dependencies": {
-    "jasmine-spec-reporter": "^4.2.1",
     "protractor": "^5.4.2"
   },
   "devDependencies": {
