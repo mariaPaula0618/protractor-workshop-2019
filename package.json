@@ -7,7 +7,6 @@
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc",
     "test": "npm run build && protractor dist/protractor/local.config.js"
-
   },
   "repository": {
     "type": "git",
@@ -31,6 +30,7 @@
   "devDependencies": {
     "@types/jasminewd2": "^2.0.6",
     "@types/node": "^12.7.5",
+    "jasmine-spec-reporter": "^4.2.1",
     "typescript": "^3.6.3"
   }
 }
