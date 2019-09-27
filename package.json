@@ -6,12 +6,10 @@
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc",
-<<<<<<< HEAD
-    "test": "npm run build && protractor dist/protractor/local.config.js"
-=======
     "test:local": "npm run build && protractor dist/protractor/local.config.js",
-    "test:headless": "npm run build && protractor dist/protractor/headless.config.js"
->>>>>>> 9858fb25963b1b0f72bca59902128c641e2a1b00
+    "test:headless": "npm run build && protractor dist/protractor/headless.config.js",
+    "test": "npm run test:headless",
+    "postinstall": "webdriver-manager update --gecko false"
   },
   "repository": {
     "type": "git",
